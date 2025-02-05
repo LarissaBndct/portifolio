@@ -45,6 +45,17 @@ a:hover{
 .p_header{
     font-size: 26px;
 }
+.botao{
+    background: #FFFAFA;
+    color: #111;
+    border: 0px;
+    border-radius: 20px;
+    width: 60px;
+}
+.botao:hover{
+    background: #111;
+    color: #FFFAFA;
+}
 .habilidades{
     display: flex;
     gap: 40px;

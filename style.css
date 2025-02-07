@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+max-width: 100%;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 120%;
+}
+header{
+    background-color: #111;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section, 
+footer{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+section{
+    border-bottom: solid #555 1px;
+}
+footer{
+    align-items: center;
+    text-align: center;
+}
+ul{
+    margin-left: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: lightblue;
+}
+.p_header{
+    font-size: 26px;
+}
+.botao{
+    background: #FFFAFA;
+    color: #111;
+    border: 0px;
+    border-radius: 20px;
+    width: 60px;
+    cursor: pointer;
+}
+.botao:hover{
+    background: #111;
+    color: #FFFAFA;
+}
+.habilidades{
+    display: flex;
+    gap: 40px;
+}
+.habilidade{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.projetos{
+    display: flex;
+    gap: 20px;
+}
+.projeto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
